@@ -13,9 +13,9 @@ const expertise = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
       </svg>
     ),
-    title: "Diagnostic & Strategie",
-    desc: "Audit de vos processus, identification des opportunites IA, estimation ROI. Methodologie proprietaire testee sur des dizaines de PME.",
-    tools: ["Cartographie processus", "Scoring maturite IA", "Benchmark sectoriel", "Plan d'action chiffre"],
+    title: "Diagnostic & Stratégie",
+    desc: "Audit de vos processus, identification des opportunites IA, estimation ROI. Méthodologie propriétaire testée sur des dizaines de PME.",
+    tools: ["Cartographie processus", "Scoring maturité IA", "Benchmark sectoriel", "Plan d'action chiffre"],
     color: "from-kogrix-400 to-emerald-500",
   },
   {
@@ -25,7 +25,7 @@ const expertise = [
       </svg>
     ),
     title: "Automatisation & Workflows",
-    desc: "Deploiement de workflows intelligents qui automatisent vos taches repetitives : emails, factures, relances, rapports.",
+    desc: "Déploiement de workflows intelligents qui automatisent vos taches répétitives : emails, factures, relances, rapports.",
     tools: ["n8n (self-hosted)", "APIs IA (Claude, GPT, Mistral)", "70+ connecteurs", "Monitoring 24/7"],
     color: "from-accent-cyan to-blue-500",
   },
@@ -36,8 +36,8 @@ const expertise = [
       </svg>
     ),
     title: "Chatbots & Agents IA",
-    desc: "Assistants IA personnalises, entraines sur vos donnees, deployes sur vos canaux (site web, WhatsApp, Telegram).",
-    tools: ["Multi-canal", "Entrainement sur vos donnees", "Analytics integre", "Escalade humaine"],
+    desc: "Assistants IA personnalises, entraînés sur vos donnees, déployés sur vos canaux (site web, WhatsApp, Telegram).",
+    tools: ["Multi-canal", "Entraînement sur vos donnees", "Analytics integre", "Escalade humaine"],
     color: "from-amber-400 to-orange-500",
   },
   {
@@ -46,16 +46,16 @@ const expertise = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: "Conformite & Securite",
-    desc: "Respect du RGPD, du secret professionnel et des normes sectorielles. Hebergement souverain, donnees chiffrees.",
-    tools: ["RGPD natif", "Hebergement France", "Chiffrement AES-256", "AI Act conforme"],
+    title: "Conformité & Sécurité",
+    desc: "Respect du RGPD, du secret professionnel et des normes sectorielles. Hébergement souverain, donnees chiffrées.",
+    tools: ["RGPD natif", "Hébergement France", "Chiffrement AES-256", "AI Act conforme"],
     color: "from-purple-400 to-indigo-500",
   },
 ];
 
 export default function Team() {
   return (
-    <section id="equipe" className="py-20 md:py-28 relative">
+    <section id="équipe" className="py-20 md:py-28 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-dark-900 via-dark-800/50 to-dark-900" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
@@ -70,11 +70,11 @@ export default function Team() {
             Notre Expertise
           </span>
           <h2 className="mt-3 text-3xl md:text-4xl font-bold text-white">
-            Une equipe.{" "}
+            Une équipe.{" "}
             <span className="text-gradient">Quatre expertises.</span>
           </h2>
           <p className="mt-4 text-gray-400 max-w-2xl mx-auto text-lg">
-            Chez Kogrix, chaque projet mobilise un ecosysteme complet : strategie humaine, outils IA de pointe, et methodologies eprouvees.
+            Chez Kogrix, chaque projet mobilise un ecosysteme complet : stratégie humaine, outils IA de pointe, et méthodologies éprouvées.
           </p>
         </motion.div>
 
@@ -99,10 +99,10 @@ export default function Team() {
                   </span>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                  Trilingue FR/EN/DE, expert en IA appliquee et automatisation. Benjamin pilote la strategie de Kogrix et supervise chaque projet pour garantir des resultats concrets et mesurables. Plus de 10 ans dans le conseil tech et la creation de solutions numeriques.
+                  Trilingue FR/EN/DE, expert en IA appliquée et automatisation. Benjamin pilote la stratégie de Kogrix et supervise chaque projet pour garantir des résultats concrets et mesurables. Plus de 10 ans dans le conseil tech et la creation de solutions numeriques.
                 </p>
                 <div className="flex flex-wrap justify-center sm:justify-start gap-2">
-                  {["Strategie IA", "Architecture solutions", "Gestion de projet", "Trilingue FR/EN/DE"].map((s) => (
+                  {["Stratégie IA", "Architecture solutions", "Gestion de projet", "Trilingue FR/EN/DE"].map((s) => (
                     <span key={s} className="text-xs px-2.5 py-1 rounded-full bg-kogrix-400/10 text-kogrix-400 border border-kogrix-400/20">
                       {s}
                     </span>
@@ -165,10 +165,10 @@ export default function Team() {
           className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4"
         >
           {[
-            { value: "24/7", label: "Disponibilite des systemes" },
+            { value: "24/7", label: "Disponibilité des systemes" },
             { value: "70+", label: "Connecteurs & integrations" },
-            { value: "RGPD", label: "Conformite native" },
-            { value: "100%", label: "Hebergement souverain" },
+            { value: "RGPD", label: "Conformité native" },
+            { value: "100%", label: "Hébergement souverain" },
           ].map((stat) => (
             <div key={stat.label} className="text-center bg-dark-800/30 border border-white/5 rounded-xl py-4 px-3">
               <div className="text-2xl font-bold text-kogrix-400">{stat.value}</div>

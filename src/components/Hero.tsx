@@ -52,7 +52,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 text-lg sm:text-xl text-gray-400 max-w-xl"
           >
-            Diagnostic gratuit, implementation sur mesure et accompagnement strategique pour les PME qui veulent passer a la vitesse superieure.
+            Diagnostic gratuit, implémentation sur mesure et accompagnement stratégique pour les PME qui veulent passer a la vitesse supérieure.
           </motion.p>
 
           <motion.div
@@ -87,7 +87,7 @@ export default function Hero() {
           >
             {[
               { value: 45, suffix: "min", label: "diagnostic offert" },
-              { value: 10, suffix: "h/sem", label: "gagnees en moyenne" },
+              { value: 10, suffix: "h/sem", label: "gagnées en moyenne" },
               { value: 3, suffix: "x", label: "ROI moyen" },
             ].map((stat) => (
               <div key={stat.label}>

@@ -6,30 +6,30 @@ const plans = [
     name: "Diagnostic",
     price: "Gratuit",
     period: "",
-    desc: "Decouvrez le potentiel IA de votre entreprise",
+    desc: "Découvrez le potentiel IA de votre entreprise",
     features: [
       "Audit flash 45 minutes",
       "Cartographie des processus",
-      "Estimation ROI chiffree",
+      "Estimation ROI chiffrée",
       "Plan d'action prioritaire",
       "Sans engagement",
     ],
-    cta: "Reserver mon diagnostic",
+    cta: "Réserver mon diagnostic",
     ctaLink: "#diagnostic",
     popular: false,
     accent: false,
   },
   {
-    name: "Implementation",
+    name: "Implémentation",
     price: "3 500",
-    period: "a 5 000 EUR + retainer mensuel",
-    desc: "Deploiement complet de solutions IA",
+    period: "à 5 000 € + retainer mensuel",
+    desc: "Déploiement complet de solutions IA",
     features: [
       "Diagnostic approfondi inclus",
-      "Chatbot IA multi-canal personnalise",
-      "5-10 workflows automatises",
-      "Integration a vos outils (CRM, compta...)",
-      "Formation equipe (1 jour)",
+      "Chatbot IA multi-canal personnalisé",
+      "5-10 workflows automatisés",
+      "Intégration à vos outils (CRM, compta...)",
+      "Formation équipe (1 jour)",
       "Support & maintenance mensuel",
       "Dashboard analytics & ROI",
     ],
@@ -39,17 +39,17 @@ const plans = [
     accent: false,
   },
   {
-    name: "CAIO Fractionnel",
+    name: "Directeur IA externe",
     price: "2 000",
-    period: "a 4 000 EUR/mois",
-    desc: "Un Chief AI Officer a temps partiel",
+    period: "à 4 000 €/mois",
+    desc: "Un directeur IA dédié à temps partiel",
     features: [
-      "Tout Implementation inclus",
-      "Strategie IA sur mesure",
+      "Tout Implémentation inclus",
+      "Stratégie IA sur mesure",
       "Veille techno & optimisation continue",
-      "Comite pilotage bimensuel",
+      "Comité pilotage bimensuel",
       "Reporting ROI mensuel",
-      "Acces prioritaire nouvelles solutions",
+      "Accès prioritaire nouvelles solutions",
       "Hotline directe",
     ],
     cta: "En savoir plus",
@@ -75,7 +75,7 @@ export default function Pricing() {
             <span className="text-gradient">transparents</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-            Diagnostic gratuit, implementation a prix fixe, accompagnement mensuel. ROI mesurable des le premier mois.
+            Diagnostic gratuit, implémentation à prix fixe, accompagnement mensuel. ROI mesurable dès le premier mois.
           </p>
         </motion.div>
 
@@ -97,7 +97,7 @@ export default function Pricing() {
             >
               {plan.popular && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-kogrix-400 text-dark-900 text-xs font-bold rounded-full uppercase tracking-wider">
-                  Recommande
+                  Recommandé
                 </div>
               )}
 
@@ -106,7 +106,7 @@ export default function Pricing() {
 
               <div className="mb-6">
                 <span className={`text-4xl font-bold ${plan.price === "Gratuit" ? "text-kogrix-400" : "text-white"}`}>
-                  {plan.price === "Gratuit" ? plan.price : `${plan.price} EUR`}
+                  {plan.price === "Gratuit" ? plan.price : `${plan.price} €`}
                 </span>
                 {plan.period && (
                   <span className="text-gray-400 text-sm ml-2">{plan.period}</span>
@@ -155,11 +155,11 @@ export default function Pricing() {
             </div>
             <div>
               <h4 className="text-white font-semibold">Formation IA</h4>
-              <p className="text-gray-400 text-sm">Ajoutez une formation pratique a n&apos;importe quelle offre. 1-2 jours, adaptee a votre secteur.</p>
+              <p className="text-gray-400 text-sm">Ajoutez une formation pratique a n&apos;importe quelle offre. 1-2 jours, adaptée à votre secteur.</p>
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <span className="text-kogrix-300 font-semibold whitespace-nowrap">Des 1 500 EUR</span>
+            <span className="text-kogrix-300 font-semibold whitespace-nowrap">Dès 1 500 €</span>
             <a href="#contact" className="px-5 py-2 border border-kogrix-300/30 text-kogrix-300 text-sm font-semibold rounded-lg hover:bg-kogrix-300/10 transition-all whitespace-nowrap">
               Ajouter
             </a>
@@ -172,7 +172,7 @@ export default function Pricing() {
           viewport={{ once: true }}
           className="text-center mt-8 text-gray-500 text-sm"
         >
-          Besoin d&apos;une solution sur mesure ? <a href="#contact" className="text-kogrix-400 hover:underline">Contactez-nous</a> pour un devis personnalise.
+          Besoin d&apos;une solution sur mesure ? <a href="#contact" className="text-kogrix-400 hover:underline">Contactez-nous</a> pour un devis personnalisé.
         </motion.p>
       </div>
     </section>

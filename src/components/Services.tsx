@@ -10,12 +10,12 @@ const services = [
     ),
     title: "Diagnostic IA",
     badge: "GRATUIT",
-    desc: "On analyse vos processus en 45 minutes et on vous dit exactement ou l'IA peut vous faire gagner du temps et de l'argent. Sans engagement.",
-    price: "0 EUR",
+    desc: "On analyse vos processus en 45 minutes et on vous dit exactement où l'IA peut vous faire gagner du temps et de l'argent. Sans engagement.",
+    price: "0 €",
     features: [
       "Audit flash de vos processus (45 min)",
       "Cartographie des taches automatisables",
-      "Estimation ROI chiffree",
+      "Estimation ROI chiffrée",
       "Plan d'action prioritaire",
     ],
     color: "kogrix-400",
@@ -27,15 +27,15 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: "Implementation IA",
+    title: "Implémentation IA",
     badge: null,
-    desc: "On deploie les solutions IA adaptees a votre metier : chatbots, automatisation, agents intelligents. Cle en main, resultats mesurables.",
-    price: "3 500 - 5 000 EUR + retainer",
+    desc: "On déploie les solutions IA adaptées à votre métier : chatbots, automatisation, agents intelligents. Clé en main, résultats mesurables.",
+    price: "3 500 - 5 000 € + retainer",
     features: [
-      "Chatbot IA personnalise multi-canal",
-      "5-10 workflows automatises (n8n)",
-      "Integration a vos outils existants",
-      "Formation equipe incluse",
+      "Chatbot IA personnalisé multi-canal",
+      "5-10 workflows automatisés (n8n)",
+      "Intégration à vos outils existants",
+      "Formation équipe incluse",
       "Support & maintenance mensuel",
     ],
     color: "accent-cyan",
@@ -47,17 +47,17 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: "CAIO Fractionnel",
+    title: "Directeur IA externe",
     badge: "POPULAIRE",
-    desc: "Un Chief AI Officer a temps partiel pour piloter votre strategie IA. Veille, optimisation continue, et accompagnement strategique mensuel.",
-    price: "2 000 - 4 000 EUR/mois",
+    desc: "Un directeur IA à temps partiel pour piloter votre stratégie. Veille technologique, optimisation continue et accompagnement mensuel personnalisé.",
+    price: "2 000 - 4 000 €/mois",
     features: [
-      "Strategie IA sur mesure",
+      "Stratégie IA sur mesure",
       "Veille technologique continue",
-      "Optimisation des solutions deployees",
+      "Optimisation des solutions déployées",
       "Reporting ROI mensuel",
-      "Comite de pilotage bimensuel",
-      "Acces prioritaire aux nouvelles solutions",
+      "Comité de pilotage bimensuel",
+      "Accès prioritaire aux nouvelles solutions",
     ],
     color: "accent-lime",
     highlight: false,
@@ -70,12 +70,12 @@ const services = [
     ),
     title: "Formation IA",
     badge: "OPTION",
-    desc: "Vos equipes apprennent a utiliser l'IA au quotidien. Ateliers 100% pratiques, adaptes a votre secteur. Resultats des le lendemain.",
-    price: "Des 1 500 EUR",
+    desc: "Vos équipes apprennent a utiliser l'IA au quotidien. Ateliers 100% pratiques, adaptés à votre secteur. Résultats dès le lendemain.",
+    price: "Dès 1 500 €",
     features: [
-      "Formation sur mesure (1 a 2 jours)",
-      "Ateliers pratiques par metier",
-      "Prompting avance & outils IA",
+      "Formation sur mesure (1 à 2 jours)",
+      "Ateliers pratiques par métier",
+      "Prompting avancé & outils IA",
       "Guide de bonnes pratiques inclus",
     ],
     color: "kogrix-300",
@@ -98,7 +98,7 @@ export default function Services() {
             <span className="text-gradient">transformer votre PME</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-            Du diagnostic gratuit a l&apos;accompagnement strategique, on vous guide a chaque etape de votre transition IA.
+            Du diagnostic gratuit a l&apos;accompagnement stratégique, on vous guide à chaque étape de votre transition IA.
           </p>
         </motion.div>
 

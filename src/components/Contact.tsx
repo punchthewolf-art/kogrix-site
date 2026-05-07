@@ -19,7 +19,7 @@ export default function Contact() {
             <span className="text-gradient">passer a l&apos;IA</span> ?
           </h2>
           <p className="mt-4 text-gray-400 text-lg">
-            Visio decouverte gratuite de 20 minutes. Sans engagement.
+            Visio découverte gratuite de 20 minutes. Sans engagement.
           </p>
         </motion.div>
 
@@ -84,7 +84,7 @@ export default function Contact() {
                 type="submit"
                 className="w-full py-4 bg-kogrix-400 text-dark-900 font-bold text-lg rounded-xl hover:bg-kogrix-300 transition-all glow-green glow-green-hover"
               >
-                Reserver ma visio gratuite
+                Réserver ma visio gratuite
               </button>
 
               <p className="text-center text-gray-500 text-xs">
@@ -103,7 +103,7 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-white mb-2">Message envoye !</h3>
-              <p className="text-gray-400">On vous recontacte sous 24h pour planifier votre visio decouverte.</p>
+              <p className="text-gray-400">On vous recontacte sous 24h pour planifier votre visio découverte.</p>
             </motion.div>
           )}
         </motion.div>

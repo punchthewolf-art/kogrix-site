@@ -42,7 +42,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-white text-sm mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-500">
-              <li><a href="#contact" className="hover:text-kogrix-400 transition-colors">Nous contacter</a></li>
+              <li><a href="mailto:contact@kogrix.com" className="hover:text-kogrix-400 transition-colors">contact@kogrix.com</a></li>
+              <li><a href="#contact" className="hover:text-kogrix-400 transition-colors">Réserver une visio</a></li>
               <li><a href="#tarifs" className="hover:text-kogrix-400 transition-colors">Tarifs</a></li>
               <li><a href="#diagnostic" className="hover:text-kogrix-400 transition-colors">Diagnostic gratuit</a></li>
             </ul>
@@ -50,13 +51,18 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-600 text-xs">
-            &copy; 2026 Kogrix &mdash; Punch Ventures LLC. Tous droits reserves.
-          </p>
+          <div className="text-gray-600 text-xs text-center md:text-left">
+            <p>&copy; 2026 Kogrix. Tous droits réservés.</p>
+            <p className="mt-1 text-gray-700">
+              Édité par <strong className="text-gray-500">SASU Pelegrinus</strong> &mdash; SIREN 948 908 348 &mdash; France
+              &nbsp;&middot;&nbsp;
+              <span className="text-gray-500">Punch Ventures LLC</span> &mdash; Wyoming, USA
+            </p>
+          </div>
           <div className="flex gap-6 text-xs text-gray-600">
-            <Link href="/mentions-legales" className="hover:text-gray-400 transition-colors">Mentions legales</Link>
+            <Link href="/mentions-legales" className="hover:text-gray-400 transition-colors">Mentions légales</Link>
             <Link href="/cgv" className="hover:text-gray-400 transition-colors">CGV</Link>
-            <Link href="/confidentialite" className="hover:text-gray-400 transition-colors">Confidentialite</Link>
+            <Link href="/confidentialite" className="hover:text-gray-400 transition-colors">Confidentialité</Link>
           </div>
         </div>
       </div>

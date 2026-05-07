@@ -6,13 +6,13 @@ const sectors = [
     name: "Cabinets comptables",
     icon: "📊",
     problems: ["Saisie manuelle de factures", "Rapprochement bancaire lent", "Rapports clients chronophages"],
-    result: "1 ETP economise",
+    result: "1 ETP économisé",
     delay: 0,
   },
   {
     name: "Cabinets d'avocats",
     icon: "⚖️",
-    problems: ["15h/semaine sur des taches admin", "Emails non tries", "Relances manuelles"],
+    problems: ["15h/semaine sur des taches admin", "Emails non triés", "Relances manuelles"],
     result: "15h/semaine recuperees",
     delay: 0.1,
   },
@@ -20,14 +20,14 @@ const sectors = [
     name: "Restaurants",
     icon: "🍽️",
     problems: ["Factures livraison non reconciliees", "Avis clients non traites", "Gaspillage alimentaire"],
-    result: "1 134 EUR/mois d'economies",
+    result: "1 134 €/mois d'économies",
     delay: 0.2,
   },
   {
     name: "Agences immobilieres",
     icon: "🏠",
-    problems: ["Leads non qualifies", "Redaction annonces repetitive", "Suivi client manuel"],
-    result: "10-15K EUR/an de CA en plus",
+    problems: ["Leads non qualifies", "Redaction annonces répétitive", "Suivi clients manuel"],
+    result: "10-15K €/an de CA en plus",
     delay: 0.3,
   },
 ];
@@ -47,7 +47,7 @@ export default function Sectors() {
             <span className="text-gradient">secteur</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-            Chaque metier a ses defis. On connait les votres.
+            Chaque métier a ses defis. On connait les votres.
           </p>
         </motion.div>
 

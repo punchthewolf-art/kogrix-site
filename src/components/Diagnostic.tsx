@@ -13,42 +13,42 @@ const questions = [
   },
   {
     question: "Quelle tache vous prend le plus de temps ?",
-    options: ["Emails & communication", "Facturation & admin", "Service client", "Reporting & analyse", "Prospection"],
+    options: ["Emails & communication", "Facturation & admin", "Service clients", "Reporting & analyse", "Prospection"],
   },
   {
-    question: "Utilisez-vous deja des outils IA ?",
+    question: "Utilisez-vous déjà des outils IA ?",
     options: ["Pas du tout", "ChatGPT de temps en temps", "Quelques outils", "Oui, plusieurs"],
   },
   {
     question: "Quel est votre objectif principal ?",
-    options: ["Gagner du temps", "Reduire les couts", "Ameliorer le service client", "Augmenter le CA"],
+    options: ["Gagner du temps", "Reduire les couts", "Ameliorer le service clients", "Augmenter le CA"],
   },
 ];
 
 const results: Record<string, { score: number; reco: string; savings: string; service: string }> = {
   "Cabinet comptable": {
     score: 89,
-    reco: "Extraction automatique des factures, rapprochement bancaire, rapports mensuels auto. Potentiel d'economie d'1 ETP complet.",
+    reco: "Extraction automatique des factures, rapprochement bancaire, rapports mensuels auto. Potentiel d'économie d'1 ETP complet.",
     savings: "168h/mois",
-    service: "Implementation IA",
+    service: "Implémentation IA",
   },
   "Cabinet d'avocats": {
     score: 92,
     reco: "Tri automatique des emails par dossier, generation de brouillons, relances factures. Jusqu'a 15h/semaine recuperees.",
     savings: "15h/semaine",
-    service: "Implementation IA",
+    service: "Implémentation IA",
   },
   "Restaurant / Hotellerie": {
     score: 87,
-    reco: "Automatisation des factures livraison, analyse des avis clients, et chatbot reservation. ROI estime : 1 134 EUR/mois d'economies.",
-    savings: "1 134 EUR/mois",
-    service: "Implementation IA",
+    reco: "Automatisation des factures livraison, analyse des avis clients, et chatbot reservation. ROI estime : 1 134 €/mois d'économies.",
+    savings: "1 134 €/mois",
+    service: "Implémentation IA",
   },
   "Agence immobiliere": {
     score: 84,
-    reco: "Scoring leads automatique, redaction annonces IA, alertes clients personnalisees. 10-15K EUR/an de CA supplementaire.",
-    savings: "10-15K EUR/an",
-    service: "Implementation IA",
+    reco: "Scoring leads automatique, redaction annonces IA, alertes clients personnalisees. 10-15K €/an de CA supplementaire.",
+    savings: "10-15K €/an",
+    service: "Implémentation IA",
   },
 };
 
@@ -94,7 +94,7 @@ export default function Diagnostic() {
             <span className="text-gradient">en 30 secondes</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg">
-            5 questions pour decouvrir ce que l&apos;IA peut faire pour vous.
+            5 questions pour découvrir ce que l&apos;IA peut faire pour vous.
           </p>
         </motion.div>
 
@@ -167,11 +167,11 @@ export default function Diagnostic() {
                 <div className="grid sm:grid-cols-2 gap-4 mb-8">
                   <div className="bg-kogrix-400/10 border border-kogrix-400/20 rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-kogrix-400">{result.savings}</div>
-                    <div className="text-sm text-gray-400 mt-1">Economies estimees</div>
+                    <div className="text-sm text-gray-400 mt-1">Économies estimees</div>
                   </div>
                   <div className="bg-accent-cyan/10 border border-accent-cyan/20 rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-accent-cyan">{result.service}</div>
-                    <div className="text-sm text-gray-400 mt-1">Service recommande</div>
+                    <div className="text-sm text-gray-400 mt-1">Service recommandé</div>
                   </div>
                 </div>
 
