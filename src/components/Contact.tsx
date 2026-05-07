@@ -59,14 +59,14 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-300 mb-2">Secteur d&apos;activite</label>
+                <label className="block text-sm font-medium text-gray-300 mb-2">Secteur d&apos;activité</label>
                 <select className="w-full px-4 py-3 bg-dark-900/50 border border-white/10 rounded-xl text-white focus:border-kogrix-400 focus:ring-1 focus:ring-kogrix-400 outline-none transition-all">
                   <option value="">Choisir votre secteur</option>
-                  <option>Restaurant / Hotellerie</option>
-                  <option>Cabinet d&apos;avocats</option>
-                  <option>Cabinet comptable</option>
-                  <option>Agence immobiliere</option>
-                  <option>Commerce / Retail</option>
+                  <option>Restaurant</option>
+                  <option>Hôtel indépendant</option>
+                  <option>Agence immobilière</option>
+                  <option>Artisan / TPE BTP</option>
+                  <option>Particulier</option>
                   <option>Autre</option>
                 </select>
               </div>

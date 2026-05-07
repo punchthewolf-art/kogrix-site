@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const questions = [
   {
-    question: "Quel est votre secteur d'activite ?",
-    options: ["Cabinet comptable", "Cabinet d'avocats", "Restaurant / Hotellerie", "Agence immobiliere", "Autre"],
+    question: "Quel est votre secteur d'activité ?",
+    options: ["Restaurant", "Hôtel indépendant", "Agence immobilière", "Artisan / TPE BTP", "Particulier", "Autre"],
   },
   {
     question: "Combien d'employes dans votre entreprise ?",
@@ -26,29 +26,35 @@ const questions = [
 ];
 
 const results: Record<string, { score: number; reco: string; savings: string; service: string }> = {
-  "Cabinet comptable": {
-    score: 89,
-    reco: "Extraction automatique des factures, rapprochement bancaire, rapports mensuels auto. Potentiel d'économie d'1 ETP complet.",
-    savings: "168h/mois",
-    service: "Implémentation IA",
-  },
-  "Cabinet d'avocats": {
-    score: 92,
-    reco: "Tri automatique des emails par dossier, generation de brouillons, relances factures. Jusqu'a 15h/semaine recuperees.",
-    savings: "15h/semaine",
-    service: "Implémentation IA",
-  },
-  "Restaurant / Hotellerie": {
+  "Restaurant": {
     score: 87,
-    reco: "Automatisation des factures livraison, analyse des avis clients, et chatbot reservation. ROI estime : 1 134 €/mois d'économies.",
+    reco: "Automatisation des factures livraison, analyse des avis clients, et chatbot réservation. ROI estimé : 1 134 €/mois d'économies.",
     savings: "1 134 €/mois",
     service: "Implémentation IA",
   },
-  "Agence immobiliere": {
+  "Hôtel indépendant": {
+    score: 90,
+    reco: "Réponses automatiques aux demandes de réservation, gestion des avis Booking/Google, message d'accueil personnalisé. 10h/semaine récupérées.",
+    savings: "10h/semaine",
+    service: "Implémentation IA",
+  },
+  "Agence immobilière": {
     score: 84,
-    reco: "Scoring leads automatique, redaction annonces IA, alertes clients personnalisees. 10-15K €/an de CA supplementaire.",
+    reco: "Scoring leads automatique, rédaction annonces IA, alertes clients personnalisées. 10-15K €/an de CA supplémentaire.",
     savings: "10-15K €/an",
     service: "Implémentation IA",
+  },
+  "Artisan / TPE BTP": {
+    score: 86,
+    reco: "Génération devis automatique à partir d'une photo, relances clients, planning chantiers. 5h/semaine et +20% de devis signés.",
+    savings: "5h/semaine",
+    service: "Implémentation IA",
+  },
+  "Particulier": {
+    score: 75,
+    reco: "Assistant IA personnel : tri emails, agenda, recherches d'infos, gestion administrative simple. Pas d'engagement, à la demande.",
+    savings: "3h/semaine",
+    service: "Formation IA",
   },
 };
 
@@ -67,8 +73,8 @@ export default function Diagnostic() {
     }
   };
 
-  const sector = answers[0] || "Cabinet comptable";
-  const result = results[sector] || results["Cabinet comptable"];
+  const sector = answers[0] || "Restaurant";
+  const result = results[sector] || results["Restaurant"];
 
   const reset = () => {
     setStep(0);

@@ -32,9 +32,9 @@ export default function Footer() {
             <h4 className="font-semibold text-white text-sm mb-4">Secteurs</h4>
             <ul className="space-y-2 text-sm text-gray-500">
               <li><a href="#secteurs" className="hover:text-kogrix-400 transition-colors">Restaurants</a></li>
-              <li><a href="#secteurs" className="hover:text-kogrix-400 transition-colors">Avocats</a></li>
-              <li><a href="#secteurs" className="hover:text-kogrix-400 transition-colors">Comptables</a></li>
-              <li><a href="#secteurs" className="hover:text-kogrix-400 transition-colors">Immobilier</a></li>
+              <li><a href="#secteurs" className="hover:text-kogrix-400 transition-colors">Hôtels indépendants</a></li>
+              <li><a href="#secteurs" className="hover:text-kogrix-400 transition-colors">Agences immobilières</a></li>
+              <li><a href="#secteurs" className="hover:text-kogrix-400 transition-colors">Artisans &amp; BTP</a></li>
             </ul>
           </div>
 

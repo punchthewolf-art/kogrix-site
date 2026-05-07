@@ -10,7 +10,7 @@ const steps = [
   {
     num: "2",
     title: "Un workflow = une chaîne d'actions automatique",
-    desc: "Exemple concret cabinet d'avocats : un mail entre dans la boîte → l'IA détecte qu'il concerne le dossier Dupont → elle classe le mail dans le bon répertoire → elle prévient l'avocat assigné → elle ajoute une ligne à la facturation.",
+    desc: "Exemple concret hôtel indépendant : un mail de réservation arrive → l'IA détecte la demande, vérifie la disponibilité → elle envoie une confirmation personnalisée → elle ajoute la réservation au planning → elle prévient la femme de chambre la veille de l'arrivée.",
   },
   {
     num: "3",
