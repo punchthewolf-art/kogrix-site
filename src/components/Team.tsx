@@ -99,7 +99,10 @@ export default function Team() {
                   </span>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                  Trilingue FR/EN/DE, expert en IA appliquée et automatisation. Benjamin pilote la stratégie de Kogrix et supervise chaque projet pour garantir des résultats concrets et mesurables. Plus de 10 ans dans le conseil tech et la creation de solutions numeriques.
+                  Trilingue FR/EN/DE, entrepreneur depuis 25 ans (gestion d&apos;établissement à Paris, direction d&apos;hôtel au Yukon, reconversion tech depuis 2020). Benjamin pilote la stratégie de Kogrix, supervise chaque projet et anime un réseau de partenaires techniques spécialisés (cryptographie, automatisation, formation Qualiopi).
+                </p>
+                <p className="text-gray-500 text-xs italic mb-4">
+                  Équipe en croissance — chaque mission mobilise 2 à 4 partenaires techniques selon le besoin (intégrateurs n8n, prompt engineers, DPO externes, formateurs sectoriels).
                 </p>
                 <div className="flex flex-wrap justify-center sm:justify-start gap-2">
                   {["Stratégie IA", "Architecture solutions", "Gestion de projet", "Trilingue FR/EN/DE"].map((s) => (

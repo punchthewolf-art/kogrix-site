@@ -59,7 +59,8 @@ export default function Footer() {
               <span className="text-gray-500">Punch Ventures LLC</span> &mdash; Wyoming, USA
             </p>
           </div>
-          <div className="flex gap-6 text-xs text-gray-600">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-gray-600">
+            <Link href="/securite" className="hover:text-kogrix-400 transition-colors font-semibold">Sécurité &amp; RGPD</Link>
             <Link href="/mentions-legales" className="hover:text-gray-400 transition-colors">Mentions légales</Link>
             <Link href="/cgv" className="hover:text-gray-400 transition-colors">CGV</Link>
             <Link href="/confidentialite" className="hover:text-gray-400 transition-colors">Confidentialité</Link>

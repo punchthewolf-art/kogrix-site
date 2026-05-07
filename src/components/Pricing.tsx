@@ -22,16 +22,17 @@ const plans = [
   {
     name: "Implémentation",
     price: "3 500",
-    period: "à 5 000 € + retainer mensuel",
+    period: "à 5 000 € + maintenance 290 €/mois",
     desc: "Déploiement complet de solutions IA",
     features: [
       "Diagnostic approfondi inclus",
       "Chatbot IA multi-canal personnalisé",
-      "5-10 workflows automatisés",
+      "5 workflows automatisés (workflows additionnels : 600 € / unité)",
       "Intégration à vos outils (CRM, compta...)",
-      "Formation équipe (1 jour)",
-      "Support & maintenance mensuel",
+      "Formation équipe (1 jour incluse)",
+      "Maintenance mensuelle 290 € : support, mises à jour, 1 ajustement / mois",
       "Dashboard analytics & ROI",
+      "Garantie satisfait ou remboursé sur le 1er livrable",
     ],
     cta: "Demander un devis",
     ctaLink: "#contact",
@@ -41,16 +42,16 @@ const plans = [
   {
     name: "Directeur IA externe",
     price: "2 000",
-    period: "à 4 000 €/mois",
+    period: "à 4 000 €/mois — engagement 6 mois minimum",
     desc: "Un directeur IA dédié à temps partiel",
     features: [
       "Tout Implémentation inclus",
       "Stratégie IA sur mesure",
       "Veille techno & optimisation continue",
-      "Comité pilotage bimensuel",
+      "Comité pilotage bimensuel (visio 90 min)",
       "Reporting ROI mensuel",
-      "Accès prioritaire nouvelles solutions",
-      "Hotline directe",
+      "Hotline directe : réponse < 4h ouvrées",
+      "Préavis résiliation : 1 mois",
     ],
     cta: "En savoir plus",
     ctaLink: "#contact",
@@ -163,6 +164,26 @@ export default function Pricing() {
             <a href="#contact" className="px-5 py-2 border border-kogrix-300/30 text-kogrix-300 text-sm font-semibold rounded-lg hover:bg-kogrix-300/10 transition-all whitespace-nowrap">
               Ajouter
             </a>
+          </div>
+        </motion.div>
+
+        {/* Garantie remboursement */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-8 bg-gradient-to-r from-kogrix-400/10 to-accent-cyan/10 border border-kogrix-400/30 rounded-2xl p-6 flex flex-col sm:flex-row items-center gap-6"
+        >
+          <div className="w-14 h-14 rounded-xl bg-kogrix-400/20 flex items-center justify-center text-kogrix-400 flex-shrink-0">
+            <svg className="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+          </div>
+          <div className="text-center sm:text-left">
+            <h4 className="text-white font-bold text-lg mb-1">Satisfait ou remboursé sur le 1<sup>er</sup> livrable</h4>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              Si le 1<sup>er</sup> livrable de votre Implémentation ne correspond pas au cahier des charges signé, nous vous remboursons intégralement dans les 30 jours suivant la livraison. Pas de discussion, pas de pénalité. Notre engagement écrit dans le contrat.
+            </p>
           </div>
         </motion.div>
 
