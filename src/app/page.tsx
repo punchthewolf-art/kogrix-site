@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import WorkflowExplained from "@/components/WorkflowExplained";
 import Diagnostic from "@/components/Diagnostic";
 import Sectors from "@/components/Sectors";
 import Pricing from "@/components/Pricing";
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Hero />
         <Services />
+        <WorkflowExplained />
         <Diagnostic />
         <Sectors />
         <Pricing />

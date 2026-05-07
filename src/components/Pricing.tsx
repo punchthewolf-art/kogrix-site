@@ -40,20 +40,20 @@ const plans = [
     accent: false,
   },
   {
-    name: "Directeur IA externe",
-    price: "2 000",
-    period: "à 4 000 €/mois — engagement 6 mois minimum",
-    desc: "Un directeur IA dédié à temps partiel",
+    name: "Formation IA",
+    price: "1 500",
+    period: "à 3 000 € — 1 à 2 jours sur site ou en visio",
+    desc: "Vos équipes maîtrisent l'IA en 48h chrono",
     features: [
-      "Tout Implémentation inclus",
-      "Stratégie IA sur mesure",
-      "Veille techno & optimisation continue",
-      "Comité pilotage bimensuel (visio 90 min)",
-      "Reporting ROI mensuel",
-      "Hotline directe : réponse < 4h ouvrées",
-      "Préavis résiliation : 1 mois",
+      "Formation sur mesure adaptée à votre métier",
+      "Ateliers pratiques avec vos vrais cas d'usage",
+      "Prompting avancé : Claude, GPT, Mistral",
+      "Outils d'automatisation no-code (n8n)",
+      "Guide de bonnes pratiques personnalisé inclus",
+      "Support 30 jours après la formation",
+      "Compatible OPCO sur demande",
     ],
-    cta: "En savoir plus",
+    cta: "Demander un devis",
     ctaLink: "#contact",
     popular: false,
     accent: true,
@@ -140,32 +140,6 @@ export default function Pricing() {
             </motion.div>
           ))}
         </div>
-
-        {/* Formation option */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mt-8 bg-dark-800/30 border border-white/5 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4"
-        >
-          <div className="flex items-center gap-4">
-            <div className="w-12 h-12 rounded-xl bg-kogrix-300/10 flex items-center justify-center text-kogrix-300">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-              </svg>
-            </div>
-            <div>
-              <h4 className="text-white font-semibold">Formation IA</h4>
-              <p className="text-gray-400 text-sm">Ajoutez une formation pratique a n&apos;importe quelle offre. 1-2 jours, adaptée à votre secteur.</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-4">
-            <span className="text-kogrix-300 font-semibold whitespace-nowrap">Dès 1 500 €</span>
-            <a href="#contact" className="px-5 py-2 border border-kogrix-300/30 text-kogrix-300 text-sm font-semibold rounded-lg hover:bg-kogrix-300/10 transition-all whitespace-nowrap">
-              Ajouter
-            </a>
-          </div>
-        </motion.div>
 
         {/* Garantie remboursement */}
         <motion.div
