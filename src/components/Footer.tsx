@@ -60,6 +60,7 @@ export default function Footer() {
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-gray-600">
+            <Link href="/particuliers" className="hover:text-kogrix-400 transition-colors italic">Espace Particuliers</Link>
             <Link href="/securite" className="hover:text-kogrix-400 transition-colors font-semibold">Sécurité &amp; RGPD</Link>
             <Link href="/mentions-legales" className="hover:text-gray-400 transition-colors">Mentions légales</Link>
             <Link href="/cgv" className="hover:text-gray-400 transition-colors">CGV</Link>

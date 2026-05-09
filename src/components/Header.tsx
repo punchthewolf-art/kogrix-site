@@ -36,6 +36,13 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
+            <Link
+              href="/particuliers"
+              className="text-xs text-gray-500 hover:text-kogrix-400 transition-colors italic"
+              title="Vous n'êtes pas une entreprise ?"
+            >
+              Particuliers →
+            </Link>
             <a
               href="#contact"
               className="px-5 py-2.5 bg-kogrix-400 text-dark-900 font-semibold text-sm rounded-lg hover:bg-kogrix-300 transition-all glow-green-hover"
@@ -81,6 +88,13 @@ export default function Header() {
                   {link.label}
                 </a>
               ))}
+              <Link
+                href="/particuliers"
+                onClick={() => setMobileOpen(false)}
+                className="block text-xs text-gray-500 hover:text-kogrix-400 italic py-2"
+              >
+                Vous êtes un particulier ? →
+              </Link>
               <a
                 href="#contact"
                 onClick={() => setMobileOpen(false)}
