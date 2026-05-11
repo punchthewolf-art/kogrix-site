@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "KOGRIX — Conseil & Automatisation IA pour PME",
-  description: "L'IA qui fait tourner votre entreprise. Automatisez vos taches, liberez votre equipe. Audit, chatbots, automatisation, formation.",
+  description: "L'IA qui fait tourner votre entreprise. Automatisez vos tâches, libérez votre équipe. Audit, chatbots, automatisation, formation.",
   keywords: "conseil IA, automatisation PME, chatbot entreprise, intelligence artificielle, France",
 };
 

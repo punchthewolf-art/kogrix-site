@@ -76,7 +76,7 @@ export default function Contact() {
                 <textarea
                   rows={4}
                   className="w-full px-4 py-3 bg-dark-900/50 border border-white/10 rounded-xl text-white placeholder-gray-500 focus:border-kogrix-400 focus:ring-1 focus:ring-kogrix-400 outline-none transition-all resize-none"
-                  placeholder="Decrivez brievement ce que vous aimeriez automatiser ou ameliorer..."
+                  placeholder="Décrivez brièvement ce que vous aimeriez automatiser ou améliorer..."
                 />
               </div>
 

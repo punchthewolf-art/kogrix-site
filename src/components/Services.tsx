@@ -14,7 +14,7 @@ const services = [
     price: "0 €",
     features: [
       "Audit flash de vos processus (45 min)",
-      "Cartographie des taches automatisables",
+      "Cartographie des tâches automatisables",
       "Estimation ROI chiffrée",
       "Plan d'action prioritaire",
     ],

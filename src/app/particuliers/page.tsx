@@ -386,8 +386,7 @@ export default function ParticuliersPage() {
       <footer className="bg-gray-900 text-gray-400 py-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
           <div>
-            &copy; 2026 Kogrix · Édité par <span className="text-gray-300">SASU Pelegrinus</span>
-            &nbsp;&middot;&nbsp; <span className="text-gray-300">Punch Ventures LLC</span>
+            &copy; 2026 <span className="text-gray-300">Kogrix</span>
           </div>
           <div className="flex gap-5 text-xs">
             <Link href="/" className="hover:text-emerald-400">

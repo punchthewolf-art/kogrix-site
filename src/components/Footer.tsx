@@ -55,8 +55,6 @@ export default function Footer() {
             <p>&copy; 2026 Kogrix. Tous droits réservés.</p>
             <p className="mt-1 text-gray-700">
               Édité par <strong className="text-gray-500">SASU Pelegrinus</strong> &mdash; SIREN 948 908 348 &mdash; France
-              &nbsp;&middot;&nbsp;
-              <span className="text-gray-500">Punch Ventures LLC</span> &mdash; Wyoming, USA
             </p>
           </div>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-gray-600">

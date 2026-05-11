@@ -14,7 +14,7 @@ const expertise = [
       </svg>
     ),
     title: "Diagnostic & Stratégie",
-    desc: "Audit de vos processus, identification des opportunites IA, estimation ROI. Méthodologie propriétaire testée sur des dizaines de PME.",
+    desc: "Audit de vos processus, identification des opportunités IA, estimation du ROI. Méthodologie propriétaire testée sur des dizaines de PME.",
     tools: ["Cartographie processus", "Scoring maturité IA", "Benchmark sectoriel", "Plan d'action chiffre"],
     color: "from-kogrix-400 to-emerald-500",
   },
@@ -25,7 +25,7 @@ const expertise = [
       </svg>
     ),
     title: "Automatisation & Workflows",
-    desc: "Déploiement de workflows intelligents qui automatisent vos taches répétitives : emails, factures, relances, rapports.",
+    desc: "Déploiement de workflows intelligents qui automatisent vos tâches répétitives : emails, factures, relances, rapports.",
     tools: ["n8n (self-hosted)", "APIs IA (Claude, GPT, Mistral)", "70+ connecteurs", "Monitoring 24/7"],
     color: "from-accent-cyan to-blue-500",
   },
@@ -36,8 +36,8 @@ const expertise = [
       </svg>
     ),
     title: "Chatbots & Agents IA",
-    desc: "Assistants IA personnalises, entraînés sur vos donnees, déployés sur vos canaux (site web, WhatsApp, Telegram).",
-    tools: ["Multi-canal", "Entraînement sur vos donnees", "Analytics integre", "Escalade humaine"],
+    desc: "Assistants IA personnalisés, entraînés sur vos données, déployés sur vos canaux (site web, WhatsApp, Telegram).",
+    tools: ["Multi-canal", "Entraînement sur vos données", "Analytics intégré", "Escalade humaine"],
     color: "from-amber-400 to-orange-500",
   },
   {
@@ -47,7 +47,7 @@ const expertise = [
       </svg>
     ),
     title: "Conformité & Sécurité",
-    desc: "Respect du RGPD, du secret professionnel et des normes sectorielles. Hébergement souverain, donnees chiffrées.",
+    desc: "Respect du RGPD, du secret professionnel et des normes sectorielles. Hébergement souverain, données chiffrées.",
     tools: ["RGPD natif", "Hébergement France", "Chiffrement AES-256", "AI Act conforme"],
     color: "from-purple-400 to-indigo-500",
   },
@@ -74,7 +74,7 @@ export default function Team() {
             <span className="text-gradient">Quatre expertises.</span>
           </h2>
           <p className="mt-4 text-gray-400 max-w-2xl mx-auto text-lg">
-            Chez Kogrix, chaque projet mobilise un ecosysteme complet : stratégie humaine, outils IA de pointe, et méthodologies éprouvées.
+            Chez Kogrix, chaque projet mobilise un écosystème complet : stratégie humaine, outils IA de pointe, et méthodologies éprouvées.
           </p>
         </motion.div>
 
@@ -168,8 +168,8 @@ export default function Team() {
           className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4"
         >
           {[
-            { value: "24/7", label: "Disponibilité des systemes" },
-            { value: "70+", label: "Connecteurs & integrations" },
+            { value: "24/7", label: "Disponibilité des systèmes" },
+            { value: "70+", label: "Connecteurs & intégrations" },
             { value: "RGPD", label: "Conformité native" },
             { value: "100%", label: "Hébergement souverain" },
           ].map((stat) => (
