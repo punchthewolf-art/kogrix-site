@@ -42,6 +42,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-white text-sm mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-gray-500">
+              <li><a href="tel:+33743544242" className="hover:text-kogrix-400 transition-colors font-semibold text-gray-300">07 43 54 42 42</a></li>
               <li><a href="mailto:contact@kogrix.com" className="hover:text-kogrix-400 transition-colors">contact@kogrix.com</a></li>
               <li><a href="#contact" className="hover:text-kogrix-400 transition-colors">Réserver une visio</a></li>
               <li><a href="#tarifs" className="hover:text-kogrix-400 transition-colors">Tarifs</a></li>

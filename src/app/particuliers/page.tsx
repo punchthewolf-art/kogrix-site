@@ -370,12 +370,23 @@ export default function ParticuliersPage() {
             60 minutes, 89 euros, et vous repartez avec ChatGPT et Claude opérationnels sur votre
             métier ou vos passions.
           </p>
-          <a
-            href="mailto:contact@kogrix.com?subject=Réservation Découverte 89€"
-            className="inline-block px-10 py-4 bg-white text-emerald-700 font-bold rounded-lg hover:bg-emerald-50 transition shadow-xl"
-          >
-            Réserver ma séance Découverte
-          </a>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
+            <a
+              href="mailto:contact@kogrix.com?subject=Réservation Découverte 89€"
+              className="inline-block px-10 py-4 bg-white text-emerald-700 font-bold rounded-lg hover:bg-emerald-50 transition shadow-xl"
+            >
+              Réserver ma séance Découverte
+            </a>
+            <a
+              href="tel:+33743544242"
+              className="inline-flex items-center gap-2 px-8 py-4 border-2 border-white/40 hover:border-white text-white font-bold rounded-lg hover:bg-white/10 transition"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              07 43 54 42 42
+            </a>
+          </div>
           <p className="mt-6 text-sm text-emerald-200">
             Réponse sous 24 h · Garantie satisfait ou remboursé
           </p>

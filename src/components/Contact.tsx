@@ -15,12 +15,23 @@ export default function Contact() {
           className="text-center mb-12"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-            Pret a{" "}
-            <span className="text-gradient">passer a l&apos;IA</span> ?
+            Prêt à{" "}
+            <span className="text-gradient">passer à l&apos;IA</span> ?
           </h2>
           <p className="mt-4 text-gray-400 text-lg">
             Visio découverte gratuite de 20 minutes. Sans engagement.
           </p>
+          <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3 text-gray-300">
+            <a href="tel:+33743544242" className="inline-flex items-center gap-2 px-5 py-2.5 bg-dark-800/60 border border-kogrix-400/30 rounded-lg hover:border-kogrix-400 hover:text-kogrix-400 transition-all">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span className="font-semibold">07 43 54 42 42</span>
+            </a>
+            <a href="mailto:contact@kogrix.com" className="text-sm text-gray-400 hover:text-kogrix-400 transition-colors">
+              contact@kogrix.com
+            </a>
+          </div>
         </motion.div>
 
         <motion.div
@@ -88,7 +99,7 @@ export default function Contact() {
               </button>
 
               <p className="text-center text-gray-500 text-xs">
-                Reponse sous 24h. Aucun engagement. 100% confidentiel.
+                Réponse sous 24 h. Aucun engagement. 100 % confidentiel.
               </p>
             </form>
           ) : (
@@ -102,7 +113,7 @@ export default function Contact() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-2">Message envoye !</h3>
+              <h3 className="text-2xl font-bold text-white mb-2">Message envoyé !</h3>
               <p className="text-gray-400">On vous recontacte sous 24h pour planifier votre visio découverte.</p>
             </motion.div>
           )}
