@@ -56,17 +56,17 @@ const services = [
     ),
     title: "Pack Essentiel IA",
     badge: "LE PLUS CHOISI",
-    desc: "Pour les PME 5 à 10 personnes. Le sweet spot tarif/valeur : un chatbot complet + une automatisation métier + une journée de formation.",
+    desc: "Pour les PME 5 à 10 personnes. Le sweet spot tarif/valeur : chatbot complet + automatisation métier + prise en main rapide de l'équipe.",
     price: "1 990 € HT",
     duration: "Livraison 10 jours",
     features: [
       "Chatbot multi-canal (site + WhatsApp)",
       "1 automatisation workflow métier au choix",
-      "Hôtel : sync résa Booking / Expedia / site",
-      "Resto : réponses avis Google + FAQ clients",
+      "Hôtel : sync résa Booking / Expedia / paniers abandonnés",
+      "Resto : factures fournisseurs + commandes + avis",
       "Artisan : générateur devis IA + relances impayés",
-      "Immo : rédaction annonces + pré-qualif leads",
-      "Journée formation équipe (jusqu'à 5 pers.)",
+      "Immo : scraping marché + rédaction annonces",
+      "Prise en main équipe : 1/2 journée (formation rapide)",
       "60 jours de hotline WhatsApp incluse",
     ],
     color: "accent-cyan",
@@ -205,16 +205,17 @@ export default function Services() {
               <h4 className="text-white font-bold">Suivi Mensuel</h4>
             </div>
             <p className="text-gray-400 text-sm mb-3">
-              Pour faire évoluer votre IA dans le temps : nouvelles questions clients, nouveaux services, nouveaux outils du marché.
+              Pour faire évoluer votre IA dans le temps. <b className="text-white">Abonnements IA (OpenAI / Claude) inclus.</b>
             </p>
             <ul className="text-sm text-gray-300 space-y-1 mb-4">
               <li>· Mise à jour mensuelle base de connaissance</li>
               <li>· Audit performance : heures économisées réelles</li>
               <li>· Hotline WhatsApp directe (réponse en moins de 2 h)</li>
               <li>· Veille des 3 nouveaux outils du mois</li>
+              <li>· Abonnements IA pris en charge (~25 €/mois valeur)</li>
             </ul>
             <p className="text-kogrix-400 font-bold">
-              99 / 149 / 290 € HT/mois<span className="text-gray-500 text-sm font-normal"> · selon pack initial</span>
+              140 € ou 290 € HT/mois<span className="text-gray-500 text-sm font-normal"> · selon volume</span>
             </p>
             <p className="text-xs text-gray-500 mt-1">Sans engagement de durée · résiliable à tout moment</p>
           </div>

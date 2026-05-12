@@ -67,7 +67,7 @@ const offers = [
   },
   {
     name: "Mentorat",
-    price: "79 €",
+    price: "49 €",
     duration: "par mois",
     tagline: "Pour ne plus jamais être largué",
     features: [

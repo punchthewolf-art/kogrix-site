@@ -34,11 +34,11 @@ const plans = [
     name: "Essentiel",
     price: "1 990 €",
     period: "PME 5-10",
-    desc: "Chatbot + automatisation + formation jour. Le sweet spot.",
+    desc: "Chatbot + automatisation + prise en main. Le sweet spot.",
     features: [
       "Chatbot multi-canal site + WhatsApp",
-      "1 automatisation workflow",
-      "Journée formation équipe",
+      "1 automatisation workflow métier",
+      "1/2 journée prise en main équipe",
       "60 j hotline WhatsApp",
     ],
     cta: "Choisir",
@@ -154,8 +154,8 @@ export default function Pricing() {
         >
           <div className="bg-kogrix-400/5 border border-kogrix-400/20 rounded-xl p-4 text-center">
             <p className="text-xs text-kogrix-400 uppercase tracking-wider font-bold mb-1">Option · Suivi Mensuel</p>
-            <p className="text-white font-bold text-lg">99 / 149 / 290 € <span className="text-gray-400 text-xs font-normal">HT/mois</span></p>
-            <p className="text-gray-400 text-xs mt-1">Selon pack initial · Sans engagement</p>
+            <p className="text-white font-bold text-lg">140 € ou 290 € <span className="text-gray-400 text-xs font-normal">HT/mois</span></p>
+            <p className="text-gray-400 text-xs mt-1">Abonnements IA inclus · Sans engagement</p>
           </div>
           <div className="bg-accent-cyan/5 border border-accent-cyan/20 rounded-xl p-4 text-center">
             <p className="text-xs text-accent-cyan uppercase tracking-wider font-bold mb-1">Option · Formation à la carte</p>
