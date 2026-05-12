@@ -45,8 +45,7 @@ export default function SecuritePage() {
             </li>
             <li>
               <strong className="text-white">Pas d&apos;exposition Cloud Act :</strong>{" "}
-              SASU Pelegrinus (France) est seule responsable du traitement. Punch
-              Ventures LLC (US) n&apos;a aucun accès aux données utilisateurs EU.
+              SASU Pelegrinus (France) est seule responsable du traitement des données utilisateurs EU. Aucune entité hors UE n&apos;y a accès.
             </li>
           </ul>
         </section>
