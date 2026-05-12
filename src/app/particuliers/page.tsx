@@ -5,9 +5,9 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Kogrix Particuliers — L'IA expliquée simplement, près de chez vous",
   description:
-    "Vous voulez utiliser ChatGPT, Claude ou l'IA dans votre quotidien sans jargon ? Kogrix vous accompagne pas à pas, à domicile ou en visio, en Normandie et partout en France.",
+    "Vous voulez utiliser ChatGPT, Claude ou l'IA dans votre quotidien sans jargon ? Kogrix vous accompagne pas à pas, en visio partout en France.",
   keywords:
-    "IA particulier, ChatGPT débutant, Claude formation, coaching IA Normandie, IA Dieppe, IA Le Tréport, IA Criel, formation IA seniors",
+    "IA particulier, ChatGPT débutant, Claude formation, coaching IA France, formation IA visio, formation IA seniors, IA pour cadres",
 };
 
 const personas = [
@@ -157,7 +157,7 @@ export default function ParticuliersPage() {
       {/* HERO */}
       <section className="max-w-5xl mx-auto px-4 sm:px-6 py-16 sm:py-24 text-center">
         <div className="inline-block bg-emerald-50 text-emerald-700 text-xs font-semibold px-3 py-1 rounded-full mb-6 border border-emerald-200">
-          Pour les particuliers · Normandie &amp; visio partout en France
+          Pour les particuliers · En visio partout en France
         </div>
         <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
           L&apos;IA expliquée simplement.

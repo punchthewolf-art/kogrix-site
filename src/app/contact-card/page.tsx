@@ -61,7 +61,7 @@ export default function ContactCardPage() {
               </p>
               <p className="text-gray-300 text-sm mt-3 max-w-xs leading-relaxed">
                 Conseil IA pour pros et particuliers. Diagnostic 45 min
-                gratuit. Normandie &amp; visio partout en France.
+                gratuit. En visio partout en France.
               </p>
             </div>
 
@@ -165,7 +165,7 @@ export default function ContactCardPage() {
                   Zone
                 </span>
                 <span className="text-white">
-                  Normandie &amp; visio France
+                  France entière · visio
                 </span>
               </div>
             </div>
