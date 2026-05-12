@@ -226,16 +226,17 @@ export default function Services() {
               <h4 className="text-white font-bold">Formation IA équipe</h4>
             </div>
             <p className="text-gray-400 text-sm mb-3">
-              Vos équipes apprennent à utiliser l&apos;IA au quotidien. Sessions 100 % pratiques par métier. Résultats dès le lendemain.
+              Vos équipes apprennent à utiliser l&apos;IA au quotidien. Sessions 100 % pratiques par métier, en petit groupe pour rester efficace.
             </p>
             <ul className="text-sm text-gray-300 space-y-1 mb-4">
-              <li>· 1 jour formation sur site ou visio (jusqu&apos;à 10 personnes)</li>
+              <li>· 1 jour formation sur site ou visio</li>
+              <li>· Groupe limité à 5 personnes (pas plus, pour l&apos;efficacité)</li>
               <li>· Prompts métier prêts à l&apos;emploi</li>
               <li>· RGPD et pièges à éviter</li>
               <li>· Support PDF 20 pages personnalisé</li>
             </ul>
             <p className="text-kogrix-400 font-bold">
-              1 200 € HT/jour<span className="text-gray-500 text-sm font-normal"> · groupe jusqu&apos;à 10 pers.</span>
+              1 200 € HT/jour<span className="text-gray-500 text-sm font-normal"> · groupe jusqu&apos;à 5 pers. max</span>
             </p>
             <p className="text-xs text-gray-500 mt-1">Incluse dans le Pack Performance · disponible aussi à la carte</p>
           </div>

@@ -160,7 +160,7 @@ export default function Pricing() {
           <div className="bg-accent-cyan/5 border border-accent-cyan/20 rounded-xl p-4 text-center">
             <p className="text-xs text-accent-cyan uppercase tracking-wider font-bold mb-1">Option · Formation à la carte</p>
             <p className="text-white font-bold text-lg">1 200 € <span className="text-gray-400 text-xs font-normal">HT/jour</span></p>
-            <p className="text-gray-400 text-xs mt-1">Jusqu&apos;à 10 personnes · Sur site ou visio</p>
+            <p className="text-gray-400 text-xs mt-1">5 personnes max · Sur site ou visio</p>
           </div>
         </motion.div>
 
