@@ -17,12 +17,27 @@ const plans = [
     style: "ghost",
   },
   {
+    name: "Découverte Express",
+    price: "290 €",
+    period: "Test ticket d'entrée",
+    desc: "1 livrable IA concret en 2 jours, sans risque",
+    features: [
+      "1 chatbot simple OU 1 auto basique",
+      "Doc PDF 2 pages",
+      "15 j hotline email",
+    ],
+    cta: "Tester",
+    ctaLink: "#contact",
+    style: "outline",
+    badge: "NOUVEAU",
+  },
+  {
     name: "Lancement",
-    price: "990 €",
+    price: "690 €",
     period: "TPE / indépendants",
     desc: "Mise en place rapide d'un chatbot OU automatisation",
     features: [
-      "1 chatbot OU 1 workflow",
+      "1 chatbot complet OU 1 workflow",
       "Demi-journée formation",
       "30 j hotline WhatsApp",
     ],
@@ -32,8 +47,8 @@ const plans = [
   },
   {
     name: "Essentiel",
-    price: "1 990 €",
-    period: "PME 5-10",
+    price: "1 490 €",
+    period: "PME 5-10 · ou 12 × 139 €",
     desc: "Chatbot + automatisation + prise en main. Le sweet spot.",
     features: [
       "Chatbot multi-canal site + WhatsApp",
@@ -48,8 +63,8 @@ const plans = [
   },
   {
     name: "Performance",
-    price: "3 500 €",
-    period: "PME 10-30",
+    price: "2 490 €",
+    period: "PME 10-30 · ou 12 × 229 €",
     desc: "Mise en place complète multi-canal, équipes formées.",
     features: [
       "Chatbot avancé multi-canal",
@@ -79,11 +94,11 @@ export default function Pricing() {
             <span className="text-gradient">transparents</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-            Quatre niveaux pour quatre tailles d&apos;entreprise. Tarifs fixes, livrables clairs, satisfait ou remboursé.
+            Du test à 290 € au déploiement complet à 2 490 €. Tarifs fixes, livrables clairs, paiement étalé possible, satisfait ou remboursé.
           </p>
         </motion.div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-5">
           {plans.map((plan, i) => (
             <motion.div
               key={plan.name}
@@ -154,12 +169,12 @@ export default function Pricing() {
         >
           <div className="bg-kogrix-400/5 border border-kogrix-400/20 rounded-xl p-4 text-center">
             <p className="text-xs text-kogrix-400 uppercase tracking-wider font-bold mb-1">Option · Suivi Mensuel</p>
-            <p className="text-white font-bold text-lg">140 € ou 290 € <span className="text-gray-400 text-xs font-normal">HT/mois</span></p>
+            <p className="text-white font-bold text-lg">99 € ou 199 € <span className="text-gray-400 text-xs font-normal">HT/mois</span></p>
             <p className="text-gray-400 text-xs mt-1">Abonnements IA inclus · Sans engagement</p>
           </div>
           <div className="bg-accent-cyan/5 border border-accent-cyan/20 rounded-xl p-4 text-center">
             <p className="text-xs text-accent-cyan uppercase tracking-wider font-bold mb-1">Option · Formation à la carte</p>
-            <p className="text-white font-bold text-lg">1 200 € <span className="text-gray-400 text-xs font-normal">HT/jour</span></p>
+            <p className="text-white font-bold text-lg">890 € <span className="text-gray-400 text-xs font-normal">HT/jour</span></p>
             <p className="text-gray-400 text-xs mt-1">5 personnes max · Sur site ou visio</p>
           </div>
         </motion.div>

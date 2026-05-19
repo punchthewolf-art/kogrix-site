@@ -28,16 +28,38 @@ const services = [
   {
     icon: (
       <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+      </svg>
+    ),
+    title: "Découverte Express",
+    badge: "NOUVEAU",
+    desc: "Le ticket d'entrée pour tester l'IA chez vous sans risque. Un livrable concret en 2 jours, à un prix imbattable.",
+    price: "290 € HT",
+    duration: "Livraison 2 jours",
+    features: [
+      "1 chatbot simple (3 FAQ) OU 1 automatisation basique au choix",
+      "Documentation PDF 2 pages personnalisée",
+      "15 jours de hotline par email",
+      "Idéal pour tester avant d'aller plus loin",
+    ],
+    color: "kogrix-300",
+    highlight: false,
+    cta: "Tester l'IA",
+    ctaTarget: "#contact",
+  },
+  {
+    icon: (
+      <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
     title: "Pack Lancement IA",
     badge: "TPE",
     desc: "Pour les indépendants et TPE qui veulent tester l'IA avec un livrable concret. Mise en place rapide, sans gros engagement.",
-    price: "990 € HT",
+    price: "690 € HT",
     duration: "Livraison 5 jours",
     features: [
-      "1 chatbot simple OU 1 automatisation au choix",
+      "1 chatbot complet OU 1 automatisation au choix",
       "Exemples : prise de réservations resto, FAQ artisan, devis auto",
       "Demi-journée formation incluse",
       "Documentation PDF 5 pages personnalisée",
@@ -57,8 +79,8 @@ const services = [
     title: "Pack Essentiel IA",
     badge: "LE PLUS CHOISI",
     desc: "Pour les PME 5 à 10 personnes. Le sweet spot tarif/valeur : chatbot complet + automatisation métier + prise en main rapide de l'équipe.",
-    price: "1 990 € HT",
-    duration: "Livraison 10 jours",
+    price: "1 490 € HT",
+    duration: "Livraison 10 jours · paiement 12 × 139 € possible",
     features: [
       "Chatbot multi-canal (site + WhatsApp)",
       "1 automatisation workflow métier au choix",
@@ -83,8 +105,8 @@ const services = [
     title: "Pack Performance IA",
     badge: "PME 10-30",
     desc: "Pour les PME structurées. Mise en place complète multi-canal, automatisations métier avancées, formation toutes équipes.",
-    price: "3 500 € HT",
-    duration: "Livraison 15 jours",
+    price: "2 490 € HT",
+    duration: "Livraison 15 jours · paiement 12 × 229 € possible",
     features: [
       "Chatbot avancé multi-canal (site + WhatsApp + Messenger)",
       "2 à 3 automatisations workflows synchronisées",
@@ -115,7 +137,7 @@ export default function Services() {
             <span className="text-gradient">au pack qui vous correspond</span>
           </h2>
           <p className="mt-4 text-gray-400 text-lg max-w-2xl mx-auto">
-            Quatre niveaux d&apos;accompagnement clairs, adaptés à la taille et au métier de votre entreprise.
+            Cinq niveaux d&apos;accompagnement, du test à 290 € au déploiement complet. Adaptés à la taille et au métier de votre entreprise.
           </p>
         </motion.div>
 
@@ -215,7 +237,7 @@ export default function Services() {
               <li>· Abonnements IA pris en charge (~25 €/mois valeur)</li>
             </ul>
             <p className="text-kogrix-400 font-bold">
-              140 € ou 290 € HT/mois<span className="text-gray-500 text-sm font-normal"> · selon volume</span>
+              99 € ou 199 € HT/mois<span className="text-gray-500 text-sm font-normal"> · selon volume</span>
             </p>
             <p className="text-xs text-gray-500 mt-1">Sans engagement de durée · résiliable à tout moment</p>
           </div>
@@ -236,7 +258,7 @@ export default function Services() {
               <li>· Support PDF 20 pages personnalisé</li>
             </ul>
             <p className="text-kogrix-400 font-bold">
-              1 200 € HT/jour<span className="text-gray-500 text-sm font-normal"> · groupe jusqu&apos;à 5 pers. max</span>
+              890 € HT/jour<span className="text-gray-500 text-sm font-normal"> · groupe jusqu&apos;à 5 pers. max</span>
             </p>
             <p className="text-xs text-gray-500 mt-1">Incluse dans le Pack Performance · disponible aussi à la carte</p>
           </div>
