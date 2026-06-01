@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import ApprocheKogrix from "@/components/ApprocheKogrix";
 import Services from "@/components/Services";
 import WorkflowExplained from "@/components/WorkflowExplained";
 import Diagnostic from "@/components/Diagnostic";
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <ApprocheKogrix />
         <Services />
         <WorkflowExplained />
         <Diagnostic />

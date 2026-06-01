@@ -5,11 +5,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#secteurs", label: "Secteurs" },
-  { href: "#tarifs", label: "Tarifs" },
-  { href: "#équipe", label: "Équipe" },
-  { href: "#contact", label: "Contact" },
+  { href: "/audit-developpement", label: "Audit gratuit", isPage: true },
+  { href: "/conseil-ia", label: "Conseil IA", isPage: true },
+  { href: "/integration", label: "Intégration", isPage: true },
+  { href: "/#tarifs", label: "Tarifs" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Header() {
@@ -26,16 +26,26 @@ export default function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-sm text-gray-400 hover:text-kogrix-400 transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
+          <nav className="hidden md:flex items-center gap-6">
+            {navLinks.map((link) =>
+              link.isPage ? (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-gray-400 hover:text-kogrix-400 transition-colors"
+                >
+                  {link.label}
+                </Link>
+              ) : (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-sm text-gray-400 hover:text-kogrix-400 transition-colors"
+                >
+                  {link.label}
+                </a>
+              )
+            )}
             <Link
               href="/particuliers"
               className="text-xs text-gray-500 hover:text-kogrix-400 transition-colors italic"
@@ -43,12 +53,12 @@ export default function Header() {
             >
               Particuliers →
             </Link>
-            <a
-              href="#contact"
+            <Link
+              href="/audit-developpement#cta-final"
               className="px-5 py-2.5 bg-kogrix-400 text-dark-900 font-semibold text-sm rounded-lg hover:bg-kogrix-300 transition-all glow-green-hover"
             >
-              Essai Gratuit
-            </a>
+              Audit gratuit
+            </Link>
           </nav>
 
           {/* Mobile burger */}
@@ -78,16 +88,27 @@ export default function Header() {
             className="md:hidden bg-[#0A1F1A]/95 border-t border-white/5"
           >
             <div className="px-4 py-4 space-y-3">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block text-gray-300 hover:text-kogrix-400 py-2"
-                >
-                  {link.label}
-                </a>
-              ))}
+              {navLinks.map((link) =>
+                link.isPage ? (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className="block text-gray-300 hover:text-kogrix-400 py-2"
+                  >
+                    {link.label}
+                  </Link>
+                ) : (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMobileOpen(false)}
+                    className="block text-gray-300 hover:text-kogrix-400 py-2"
+                  >
+                    {link.label}
+                  </a>
+                )
+              )}
               <Link
                 href="/particuliers"
                 onClick={() => setMobileOpen(false)}
@@ -95,13 +116,13 @@ export default function Header() {
               >
                 Vous êtes un particulier ? →
               </Link>
-              <a
-                href="#contact"
+              <Link
+                href="/audit-developpement#cta-final"
                 onClick={() => setMobileOpen(false)}
                 className="block w-full text-center px-5 py-3 bg-kogrix-400 text-dark-900 font-semibold rounded-lg mt-2"
               >
-                Essai Gratuit
-              </a>
+                Audit gratuit
+              </Link>
             </div>
           </motion.div>
         )}
